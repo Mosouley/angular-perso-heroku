@@ -17,8 +17,9 @@ const app = express();
 app.use(express.static(__dirname + '/dist/<personal-portfolio>'));
 
 app.get('/*', function(req,res) {
-
-res.sendFile(path.join(__dirname + '/dist/<personal-portfolio>/index.html'));
+  const fullPath = path.join(__dirname + '/dist/<personal-portfolio>/index.html');
+  console.log(" Fetching from.." + fullPath);
+  res.sendFile(fullPath);
 });
 
 // Start the app by listening on the default Heroku port
