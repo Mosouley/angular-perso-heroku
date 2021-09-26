@@ -1,5 +1,5 @@
 {
-  "name": "personal-portfolio",
+  "name": "angular-portfolio-heroku",
   "version": "0.0.0",
   "scripts": {
     "heroku-postbuild": "ng build --prod",
