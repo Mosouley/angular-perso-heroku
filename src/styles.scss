@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+@use '/scss/custom';
+
+// import the components
+@use '/scss/components/animations';
+@use '/scss/components/buttons';
+@use '/scss/components/mixins';
+@use '/scss/components/typography';
+
+
+
 .ngx-pagination {
   margin: 0 auto;
   text-align: center;
