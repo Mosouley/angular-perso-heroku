@@ -32,7 +32,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     PortfolioComponent,
     ProjectsComponent,
     ReferenceComponent,
-    SkillsComponent
+    SkillsComponent,
   ],
   imports: [
     CommonModule,
