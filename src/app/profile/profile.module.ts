@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { ParallaxDirective } from './parallax.directive';
 
 
 
@@ -33,6 +34,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     ProjectsComponent,
     ReferenceComponent,
     SkillsComponent,
+    ParallaxDirective,
   ],
   imports: [
     CommonModule,
